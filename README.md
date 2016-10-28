@@ -1,6 +1,6 @@
 # Intel HPC Developers Conference
 
-Here you will find the preparation information, materials, and requirements to be part of the [Intel HPC DevCon](http://www.intel.com/content/www/us/en/events/hpcdevcon/overview.html) as part of Supercomputing 2016 ([click here to register for free](https://hpcdevcon.intel.com/register/devcon.aspx)).
+Here you will find the preparation information, materials, and requirements to be part of the [Singularity](http://singularity.lbl.gov) labs at the [Intel HPC DevCon](http://www.intel.com/content/www/us/en/events/hpcdevcon/overview.html) as part of Supercomputing 2016 ([click here to register for free](https://hpcdevcon.intel.com/register/devcon.aspx)).
 
 As you can see on the [agenda](http://www.intel.com/content/www/us/en/events/hpcdevcon/agenda.html), there are two sessions dedicated to Singularity:
 
@@ -11,25 +11,33 @@ As you can see on the [agenda](http://www.intel.com/content/www/us/en/events/hpc
 
 
 ## Session 1 Overview
-This session will consist of a presentation covering an introduction to Singularity (about 30-45 minutes depending on questions) and a lab followup with the remainder of the time.
+This session will consist of a presentation covering an introduction to Singularity (about 30-45 minutes depending on questions) and a lab follow up with the remainder of the time.
 
-The lab will have the session attendees install Singularity on a computer that they "own" (either a laptop they have with them, a Linux workstation or server they have root on, or a cloud based Linux instance they have control of (e.g. AWS)). Once they have installed Singularity on their end-point, we will start off by using a container in the Docker registry and then walk through building and modifying a Singularity container image. The lab will then cover various methods and usage models of the container images on resources where you may or may not have root access.
+The lab session will take the session attendees through an installation of Singularity and then a walk through of some of the basic features of building and using Singularity containers. To do this we will provide the lab members with temporary AWS compute instances that everyone will have access to for the duration of the session(s). This lab will provide attendees with the following knowledge:
 
+* How to achieve reproducible scientific results using Singularity
+* How to install and setup Singularity
+* An introduction to bootstrapping (creating/building) and customizing Singularity containers
+* Basic usage of Singularity containers
+* How to leverage existing containers and work pushed to DockerHub
 
 ### Session 1 Lab Requirements
 To be part of this lab, you will have to have each of the following:
 
-* You must have a general working knowledge of Linux and be familiar with installing packages, updates, etc.
-* It is necessary that you have root (`sudo`) access to at least one Linux computer via a terminal. This could be a physical Linux laptop, workstation, or server that you control and can `ssh` into, or it could be a virtual machine on your laptop that you bring with you.
-* The Linux computer that you will be using for the duration of the Lab should be of the following:
-	* A recent version of Linux (of the vintage of RHEL6 or newer)
-	* For simplicity, either an RPM or Debian based derivative of Linux (e.g. Centos, SL, RHEL, Ubuntu, Debian, etc..)
-	* Development tools should be installed (`yum groupinstall "Development Tools"`)
-	* This should **not** be a production server!
-
+* You must have a general working knowledge of Linux and be familiar with compiling and installing GNU source build packages, installing system packages and updates, using `ssh`, and be fluent with the command line and a basic understanding of computing science
+* It is necessary that you have a laptop with you that is capable of web browsing and ssh’ing into remote hosts
 
 ## Session 2 Overview
-This section will focus on more advanced usage of Singularity, including workflow integration, more detailed build and bootstrap recipes, and depending on time and interest, resource management, MPI, and GPUs.
+This is the advanced session for Singularity and will include a short presentation about some of the architecture of Singularity, more advanced features, and points on system integration before continuing onto the lab which will focus on more advanced usage of Singularity including:
+
+* Customizing bootstrap definitions to make reproducible containers based on prescriptive recipes
+* Creating workflows within Singularity containers that do specific jobs and how to execute those recipes
+* Running MPI through your container
+* How to integrate with resource managers and job scripts
 
 ### Session 2 Lab Requirements
-This lab will leverage what we did with Session 1, so you will need to come to the lab with Singularity installed on an end point that you control (as root) and have a basic working knowledge of Singularity (preferably you were at Session 1).
+This lab will extend upon what we did with Session 1, so it is best that you either have been at the first session or you already have a general working knowledge of Singularity. We will also continue using the AWS instances from the first Session, so be sure to bring your `ssh` enabled laptop!
+
+
+# Contact...
+If there are any questions, comments, concerns or feedback, related to these labs, please contact Gregory Kurtzer at [gmkurtzer@lbl.gov](mailto:gmkurtzer@lbl.gov).
