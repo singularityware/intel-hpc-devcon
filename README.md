@@ -1,3 +1,5 @@
+![banner](HPCDC-728x90-Speakers.jpg)
+
 # Intel HPC Developers Conference
 
 Here you will find the preparation information, materials, and requirements to be part of the [Singularity](http://singularity.lbl.gov) labs at the [Intel HPC DevCon](http://www.intel.com/content/www/us/en/events/hpcdevcon/overview.html) as part of Supercomputing 2016 ([click here to register for free](https://hpcdevcon.intel.com/register/devcon.aspx)).
