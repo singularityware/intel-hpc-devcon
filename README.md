@@ -1,4 +1,4 @@
-![banner](HPCDC-728x90-Speakers.jpg)
+![banner](https://raw.githubusercontent.com/singularityware/intel-hpc-devcon/master/HPCDC-728x90-Speakers.jpg)
 
 # Intel HPC Developers Conference
 
