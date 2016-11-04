@@ -2,13 +2,20 @@
 
 Here you will find the preparation information, materials, and requirements to be part of the [Singularity](http://singularity.lbl.gov) labs at the [Intel HPC DevCon](http://www.intel.com/content/www/us/en/events/hpcdevcon/overview.html) as part of Supercomputing 2016 ([click here to register for free](https://hpcdevcon.intel.com/register/devcon.aspx)).
 
-As you can see on the [agenda](http://www.intel.com/content/www/us/en/events/hpcdevcon/agenda.html), there are two sessions dedicated to Singularity:
+## Overview
+Singularity is a container platform for scientific use cases enabling reproducible science, mobility of compute, and integration on traditional high performance computing resources. Singularity is installed on some of the largest systems in the world (near half million cores on TACC's Stampede and GSI's Center for Heavy Ion Research/Greencube) as well as other centers and midrange computing resources worldwide.
+
+These sessions and workshops will be given by the primary author and project lead of Singularity ([Gregory M. Kurtzer](http://gmkurtzer.github.io/), also known for founding Centos Linux and Warewulf).
+
+## Sessions
+
+There are two sessions dedicated to Singularity on the [agenda](http://www.intel.com/content/www/us/en/events/hpcdevcon/agenda.html):
 
 1. [Session 1, Saturday 12th at 2:05-3:30pm - HPC Containers & Singularity (Overview and Tutorial)](http://www.intel.com/content/www/us/en/events/hpcdevcon/technical-sessions.html#singularity)
 
 2. [Session 2, Sunday 13th at 9:45-10:35am - HPC Containers and & Singularity (Advanced Tutorial)](http://www.intel.com/content/www/us/en/events/hpcdevcon/technical-sessions.html#lbnl)
 
-
+Attendance for these sessions will be limited!
 
 ## Session 1 Overview
 This session will consist of a presentation covering an introduction to Singularity (about 30-45 minutes depending on questions) and a lab follow up with the remainder of the time.
@@ -25,6 +32,7 @@ The lab session will take the session attendees through an installation of Singu
 To be part of this lab, you will have to have each of the following:
 
 * You must have a general working knowledge of Linux and be familiar with compiling and installing GNU source build packages, installing system packages and updates, using `ssh`, and be fluent with the command line and a basic understanding of computing science
+* You must be either a scientist, engineer, or system administrator (this is a technical workshop)
 * It is necessary that you have a laptop with you that is capable of web browsing and ssh’ing into remote hosts
 
 ## Session 2 Overview
@@ -36,7 +44,7 @@ This is the advanced session for Singularity and will include a short presentati
 * How to integrate with resource managers and job scripts
 
 ### Session 2 Lab Requirements
-This lab will extend upon what we did with Session 1, so it is best that you either have been at the first session or you already have a general working knowledge of Singularity. We will also continue using the AWS instances from the first Session, so be sure to bring your `ssh` enabled laptop!
+This lab will extend upon what we did with Session 1, so it is best that you either have been at the first session or you already have a general working knowledge of Singularity. We will also continue using the AWS instances from the first Session, so be sure to bring your `ssh` enabled laptop! If you did not attend the first session but wish to attend this session, be sure to bring your own knowledge on the points covered in the Session 1 overview.
 
 
 # Contact...
